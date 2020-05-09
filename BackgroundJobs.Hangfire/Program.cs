@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace BackgroundJob.BackgroundService
+namespace BackgroundJobs.Hangfire
 {
     public class Program
     {

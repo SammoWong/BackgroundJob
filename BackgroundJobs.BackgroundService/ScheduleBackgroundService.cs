@@ -3,7 +3,7 @@ using System;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace BackgroundJob.BackgroundService
+namespace BackgroundJobs.BackgroundService
 {
     public class ScheduleBackgroundService : Microsoft.Extensions.Hosting.BackgroundService
     {

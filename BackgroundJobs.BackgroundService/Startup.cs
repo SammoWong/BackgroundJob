@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace BackgroundJob.BackgroundService
+namespace BackgroundJobs.BackgroundService
 {
     public class Startup
     {

@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackgroundJob.Timer", "BackgroundJob.Timer\BackgroundJob.Timer.csproj", "{10A2C4D4-F710-4B11-9E13-64095674EB80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackgroundJobs.Timer", "BackgroundJobs.Timer\BackgroundJobs.Timer.csproj", "{10A2C4D4-F710-4B11-9E13-64095674EB80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackgroundJob.BackgroundService", "BackgroundJob.BackgroundService\BackgroundJob.BackgroundService.csproj", "{8A394A79-F634-40A6-A30F-8310B57950FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackgroundJobs.BackgroundService", "BackgroundJobs.BackgroundService\BackgroundJobs.BackgroundService.csproj", "{8A394A79-F634-40A6-A30F-8310B57950FF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackgroundJobs.Hangfire", "BackgroundJobs.Hangfire\BackgroundJobs.Hangfire.csproj", "{D868BFB1-FC3E-4BE0-8185-9B3F5C186558}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{8A394A79-F634-40A6-A30F-8310B57950FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A394A79-F634-40A6-A30F-8310B57950FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A394A79-F634-40A6-A30F-8310B57950FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D868BFB1-FC3E-4BE0-8185-9B3F5C186558}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D868BFB1-FC3E-4BE0-8185-9B3F5C186558}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D868BFB1-FC3E-4BE0-8185-9B3F5C186558}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D868BFB1-FC3E-4BE0-8185-9B3F5C186558}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

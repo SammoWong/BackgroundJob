@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.Threading;
 using System.Timers;
 
-namespace BackgroundJob.Timer
+namespace BackgroundJobs.Timer
 {
     class Program
     {

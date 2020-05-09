@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>BackgroundJobs.BackgroundService</AssemblyName>
+    <RootNamespace>BackgroundJobs.BackgroundService</RootNamespace>
   </PropertyGroup>
 
 </Project>
